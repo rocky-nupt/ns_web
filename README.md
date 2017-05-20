@@ -46,10 +46,10 @@ Windows 下使用 NS 则需要采用Windows+虚拟机（VMware、VirtualBox）+N
 代码执行指的是浏览器端把已经编写好的完整代码提交的后台进行执行，并要返回执行结果，业务逻辑见图 3。<br/>
 代码生成指的是根据浏览器端的图形操作返回相应的 tcl 代码，业务逻辑见图 4。<br/>
 Trace 文件获取指的是将执行完仿真程序之后生成的 trace 文件内容返回给浏览器端，业务逻辑见图 5。<br/>
-<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image2.png' />
-<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image3.png' />
-<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image4.png' />
-<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image5.png' />
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image2.png' width=50%/>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image3.png' width=50%/>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image4.png' width=50%/>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image5.png' width=50%/>
 
 ## 三、程序编写及调试
 
