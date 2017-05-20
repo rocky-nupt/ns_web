@@ -31,7 +31,7 @@ Windows 下使用 NS 则需要采用Windows+虚拟机（VMware、VirtualBox）+N
 
 网页版 NS2 实验平台采用的是 B/S 架构（见图 1），即浏览器/服务器架构。在这种架构下，用户界面是通过浏览器来实现，只有极少部分事物逻辑在浏览器端实现，主要事务逻辑在服务器端实现。<br/>
 本实验平台采用的是最简单的 B/S 架构，后台只有一台服务器，用户通过局域网内的浏览器发送请求，服务器端收到请求后做出处理并返回相应的结构给用户的浏览器。<br/>
-<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns1.png' alt='图1'/>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image1.png' />
 
 ### 2.2 客观条件
 
@@ -46,6 +46,10 @@ Windows 下使用 NS 则需要采用Windows+虚拟机（VMware、VirtualBox）+N
 代码执行指的是浏览器端把已经编写好的完整代码提交的后台进行执行，并要返回执行结果，业务逻辑见图 3。<br/>
 代码生成指的是根据浏览器端的图形操作返回相应的 tcl 代码，业务逻辑见图 4。<br/>
 Trace 文件获取指的是将执行完仿真程序之后生成的 trace 文件内容返回给浏览器端，业务逻辑见图 5。<br/>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image2.png' />
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image3.png' />
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image4.png' />
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image5.png' />
 
 ## 三、程序编写及调试
 
@@ -81,9 +85,7 @@ python 中的列表数据结构形式很像，以为传过来就能当做列表�
 ## 五、预期目标实现
 
 一、代码执行：<br/>
-<div style='text-align:center;'>
-<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns1.png' width=100% />图1
-</div>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns1.png' />
 
 二、代码生成：<br/>
 <image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns2.png' />
