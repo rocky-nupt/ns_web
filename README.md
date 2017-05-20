@@ -60,6 +60,7 @@ Trace 文件获取指的是将执行完仿真程序之后生成的 trace 文件�
 代码生成响应只有一个 post 响应函数，接收到 post 请求后用 json 模块解析传过来的数据，根据这些数据实例化这些节点和链路（数据结构见图 6），实例化之后调用代码生成函数遍历这些节点和链路的
 属性生成相应的 tcl 代码，最后将生成的 tcl 代码转换成 json 格式之后传输给前台处理。<br/>
 Trace 文件获取响应中也只包括了一个 post 响应函数，接收到 post 请求后，程序就先在本地服务器查看有没有 trace 文件，存在就获取文件内容并传输回前台，不存在就返回空。<br/>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/image6.png' />
 
 ### 3.2 程序调试
 
@@ -80,12 +81,12 @@ python 中的列表数据结构形式很像，以为传过来就能当做列表�
 ## 五、预期目标实现
 
 一、代码执行：<br/>
-<div style='text-align:center'>
+<div style='text-align:center;'>
 <image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns1.png' width=100% />图1
 </div>
 
 二、代码生成：<br/>
-<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns2.png' alt='图2'/>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns2.png' />
 
 三、trace文件获取：<br/>
-<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns3.png' alt='图3'/>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns3.png' />
