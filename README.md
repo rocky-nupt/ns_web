@@ -31,7 +31,7 @@ Windows 下使用 NS 则需要采用Windows+虚拟机（VMware、VirtualBox）+N
 
 网页版 NS2 实验平台采用的是 B/S 架构（见图 1），即浏览器/服务器架构。在这种架构下，用户界面是通过浏览器来实现，只有极少部分事物逻辑在浏览器端实现，主要事务逻辑在服务器端实现。<br/>
 本实验平台采用的是最简单的 B/S 架构，后台只有一台服务器，用户通过局域网内的浏览器发送请求，服务器端收到请求后做出处理并返回相应的结构给用户的浏览器。<br/>
-<image />
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns1.png' alt='图1'/>
 
 ### 2.2 客观条件
 
