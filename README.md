@@ -80,7 +80,7 @@ python 中的列表数据结构形式很像，以为传过来就能当做列表�
 ## 五、预期目标实现
 
 一、代码执行：<br/>
-<div style='text-aline:center'>
+<div style='text-align:center'>
 <image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns1.png' width=100% />图1
 </div>
 
