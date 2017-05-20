@@ -76,3 +76,14 @@ python 中的列表数据结构形式很像，以为传过来就能当做列表�
 效便捷。<br/>
 当然，目前的网站还是存在了许多不足之处。首先，网页本身全部使用的是 html 元素的原型，没有一点修饰，网页的美观程度不足。其次，图形界面的操作还不够完善，NS2 仿真软件本身功能甚多，而图形
 界面的操作功能有限，不能完全发挥出 NS2 仿真软件的强大之处。所以，网页版 NS2 仿真实验平台目前还只是个雏形，还是有很多地方值得我们去完善的。<br/>
+
+## 五、预期目标实现
+
+一、代码执行：<br/>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns1.png' alt='图1'/>
+
+二、代码生成：<br/>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns2.png' alt='图2'/>
+
+三、trace文件获取：<br/>
+<image src='https://github.com/rocky-nupt/ns_web/blob/master/image/ns3.png' alt='图3'/>
