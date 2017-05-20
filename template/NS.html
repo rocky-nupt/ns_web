@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <title>NS</title>
+
+    <link rel="stylesheet" type="text/css" href='{{ static_url("css/Btn_Txt.css") }}'>
+
+    <script src="{{ static_url('jsExternalFrameWork/jquery-3.1.1.js') }}"></script>
+    <script src="{{ static_url('jsExternalFrameWork/jquery-ui.js') }}"></script>
+    <script src="{{ static_url('jsExternalFrameWork/jsDraw2D_Uncompressed.js') }}"></script>
+
+		<script src="{{ static_url('globalVariables.js') }}"></script>
+		<script src="{{ static_url('clickFunction.js') }}"></script>
+    
+    <script src="{{ static_url('drag.js') }}"></script>
+    <script src="{{ static_url('limitDrag.js') }}"></script>
+    <script src="{{ static_url('connection.js') }}"></script>
+    
+    <script src="{{ static_url('createElement.js') }}"></script>
+    <script src="{{ static_url('generator.js') }}"></script>
+    <script src="{{ static_url('code.js') }}"></script>
+    <script src="{{ static_url('alertSelect.js') }}"></script>
+    <script src="{{ static_url('set.js') }}"></script>
+    <script src="{{ static_url('judgement.js') }}"></script>
+    
+    <script src="{{ static_url('submit.js') }}"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+      	
+      	new clickFunction();
+				
+      });
+    </script>
+
+  </head>
+
+  <body>
+
+    <input id="txtNode" type="text" />
+    <input id="btnNode" type="button" value="CreateNode">
+
+    <input id="txtLink" type="text" />
+    <input id="btnLink" type="button" value="CreateLink">
+
+    <input id="run" type="button" value="Run" />
+    <textarea id="cmdArea" ></textarea>
+    
+    <input id="clearArea" type="button" value="ClearInput" />
+    <textarea id="displayArea" readonly></textarea>
+    <textarea id="traceArea" readonly></textarea>
+    
+    <input id="btnMovingRepaint" type="button" value="状态：流畅">
+    <input id="generator" type="button" value="Generator">
+    <input id="viewTrace" type="button" value="ViewTrace" />
+    
+  </body>
+</html>

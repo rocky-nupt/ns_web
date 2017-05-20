@@ -1,0 +1,20 @@
+body {position:relative; overflow:scroll;}
+
+#txtNode {position:absolute; left:10px; top:10px;}
+#btnNode {position:absolute; left:170px; top:10px;}
+
+#txtLink {position:absolute; left:300px; top:10px;}
+#btnLink {position:absolute; left:460px; top:10px;}
+
+#btnMovingRepaint {position:absolute; left:580px; top:10px;}
+#generator {position:absolute; left:760px; top:10px;}
+#viewTrace {position:absolute; left:1200px; top:10px;}
+
+
+
+#run {position:absolute; left:860px; top:10px;}
+#cmdArea {width:460px; height:370px; position:absolute; left:860px; top:40px;}
+
+#clearArea {position:absolute; left:920px; top:10px;}
+#displayArea {width:460px; height:120px; position:absolute; left:860px; top:420px;}
+#traceArea {width:460px; height:200px; position:absolute; left:860px; top:550px;}
